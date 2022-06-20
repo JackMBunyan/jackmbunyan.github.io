@@ -1,6 +1,6 @@
 html {
 	margin: 20px;
-	background-color: #411267fe;
+	background-color: #160318fe;
 }
 
 body {
@@ -11,6 +11,10 @@ body {
 
 h1 {
 	font-size: 50px;
+}
+
+h2 {
+	font-size: 35px;
 }
 
 p {
@@ -41,3 +45,9 @@ p {
 	background-color: #bc219d;
 	color: white;
   }
+
+img {
+	width: 60px;
+	border-radius: 8px;
+	background-color: white;
+}
