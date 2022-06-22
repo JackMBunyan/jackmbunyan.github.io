@@ -17,6 +17,11 @@ h2 {
 	font-size: 35px;
 }
 
+h3 {
+	font-size: 25px;
+	color:#bc219d;
+}
+
 p {
 	font-size: 20px;
 	color: #E321A9;
@@ -46,8 +51,31 @@ p {
 	color: white;
   }
 
-img {
+.contact {
+	background-color: #35093afe;
+	border-radius: 10px;
+	padding: 20px 20px;
+}
+
+.contacts {
 	width: 60px;
 	border-radius: 8px;
 	background-color: white;
+}
+
+.projects {
+	background-color: #35093afe;
+	border-radius: 10px;
+	padding: 5px 20px;
+	margin-top: 20px;
+}
+
+.proj_title {
+	color:white;
+}
+
+.about_me {
+	background-color: #35093afe;
+	border-radius: 10px;
+	padding: 1px 20px;
 }
