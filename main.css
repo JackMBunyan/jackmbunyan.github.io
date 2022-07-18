@@ -20,6 +20,7 @@ h2 {
 h3 {
 	font-size: 25px;
 	color:#bc219d;
+	white-space: nowrap;
 }
 
 p {
@@ -68,19 +69,29 @@ p {
 	border-radius: 10px;
 	padding: 5px 20px;
 	margin-top: 20px;
+	display: block;
+	justify-content: center;	
 }
 
 .proj_desc {
 	color:white;
+	margin-left: 20px;
 }
 
 .proj_img {
 	width: 250px;
-	margin-right: 10px;
+	margin-left: 20px;
+	object-fit: contain;
 }
 
 .about_me {
 	background-color: #35093afe;
 	border-radius: 10px;
 	padding: 1px 20px;
+}
+
+@media only screen and (min-width: 1100px){
+	.projects{
+		display: flex;
+	}
 }
