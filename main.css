@@ -88,10 +88,25 @@ p {
 	background-color: #35093afe;
 	border-radius: 10px;
 	padding: 1px 20px;
+	display: flex;
+}
+
+.pfp {
+	width: 200px;
+	padding: 20px 0px;
+	border-radius: 50px;
+}
+
+.link {
+	color: aqua;
 }
 
 @media only screen and (max-width: 1100px){
-	.projects{
+	.projects {
+		display: block;
+	}
+	
+	.about_me {
 		display: block;
 	}
 }
