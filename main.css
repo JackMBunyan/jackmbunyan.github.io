@@ -68,7 +68,6 @@ p {
 	border-radius: 10px;
 	padding: 5px 20px;
 	margin-top: 20px;
-	height: 250px;
 }
 
 .proj_desc {
@@ -76,8 +75,7 @@ p {
 }
 
 .proj_img {
-	width: 200px;
-	float: left;
+	width: 250px;
 	margin-right: 10px;
 }
 
