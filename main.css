@@ -1,12 +1,12 @@
 html {
 	margin: 20px;
-	background-color: #000000fe;
+	background-color: #fffffffe;
 }
 
 body {
    font-family: "Arial";
    font-weight: 300;
-   color: #dededefe;
+   color: #000000fe;
 }
 
 h1 {
@@ -29,14 +29,14 @@ p {
 }
 
 .topnav {
-	background-color: rgb(255, 251, 251);
+	background-color: rgb(0, 0, 0);
 	overflow: hidden;
 	border-radius: 10px;
   }
   
   .topnav a {
 	float: left;
-	color: #000000;
+	color: #ffffff;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
@@ -49,12 +49,12 @@ p {
   }
   
   .topnav a.active {
-	background-color: #541364;
+	background-color: #7c7c7c;
 	color: white;
   }
 
 .contact {
-	background-color: #30063a;
+	background-color: #000000;
 	border-radius: 10px;
 	padding: 20px 20px;
 }
@@ -66,7 +66,7 @@ p {
 }
 
 .projects {
-	background-color: #30063a;
+	background-color: #000000;
 	border-radius: 10px;
 	padding: 20px 20px;
 	margin-top: 20px;
@@ -86,7 +86,7 @@ p {
 }
 
 .about_me {
-	background-color: #30063a;
+	background-color: #000000;
 	border-radius: 10px;
 	padding: 1px 20px;
 	display: flex;
@@ -99,7 +99,7 @@ p {
 }
 
 .link {
-	color: aqua;
+	color: rgb(255, 255, 255);
 }
 
 .logo {
